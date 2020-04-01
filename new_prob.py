@@ -44,5 +44,4 @@ with open(os.path.join(cwd, 'Makefile'), 'w') as f:
     %s: %s
         gcc $< -o $@
     """
-    % pname, pname
     )
